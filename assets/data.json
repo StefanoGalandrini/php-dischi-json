@@ -1,0 +1,405 @@
+[
+	{
+		"titolo": "Taylor Swift - Evermore",
+		"autore": "Taylor Swift",
+		"anno": 2020,
+		"tracklist": [
+			{
+				"nome": "Willow",
+				"durata": "3:34"
+			},
+			{
+				"nome": "Champagne Problems",
+				"durata": "4:04"
+			},
+			{
+				"nome": "Gold Rush",
+				"durata": "3:05"
+			},
+			{
+				"nome": "'Tis the Damn Season",
+				"durata": "3:49"
+			},
+			{
+				"nome": "Tolerate It",
+				"durata": "4:05"
+			},
+			{
+				"nome": "No Body, No Crime (feat. HAIM)",
+				"durata": "3:35"
+			},
+			{
+				"nome": "Happiness",
+				"durata": "5:15"
+			},
+			{
+				"nome": "Dorothea",
+				"durata": "3:45"
+			},
+			{
+				"nome": "Coney Island (feat. The National)",
+				"durata": "4:35"
+			},
+			{
+				"nome": "Ivy",
+				"durata": "4:20"
+			},
+			{
+				"nome": "Cowboy Like Me",
+				"durata": "4:35"
+			},
+			{
+				"nome": "Long Story Short",
+				"durata": "3:36"
+			},
+			{
+				"nome": "Marjorie",
+				"durata": "4:18"
+			},
+			{
+				"nome": "Closure",
+				"durata": "3:00"
+			},
+			{
+				"nome": "Evermore (feat. Bon Iver)",
+				"durata": "5:04"
+			}
+		],
+		"produttore": "Aaron Dessner, William Bowery, Jack Antonoff, Taylor Swift",
+		"etichetta": "Republic Records"
+	},
+	{
+		"titolo": "U2 - The Joshua Tree Remastered",
+		"autore": "U2",
+		"anno": 2017,
+		"tracklist": [
+			{
+				"nome": "Where the Streets Have No Name",
+				"durata": "5:37"
+			},
+			{
+				"nome": "I Still Haven't Found What I'm Looking For",
+				"durata": "4:38"
+			},
+			{
+				"nome": "With or Without You",
+				"durata": "4:56"
+			},
+			{
+				"nome": "Bullet the Blue Sky",
+				"durata": "4:32"
+			},
+			{
+				"nome": "Running to Stand Still",
+				"durata": "4:18"
+			},
+			{
+				"nome": "Red Hill Mining Town",
+				"durata": "4:52"
+			},
+			{
+				"nome": "In God's Country",
+				"durata": "2:57"
+			},
+			{
+				"nome": "Trip Through Your Wires",
+				"durata": "3:32"
+			},
+			{
+				"nome": "One Tree Hill",
+				"durata": "5:23"
+			},
+			{
+				"nome": "Exit",
+				"durata": "4:14"
+			},
+			{
+				"nome": "Mothers of the Disappeared",
+				"durata": "5:14"
+			}
+		],
+		"produttore": "Daniel Lanois, Brian Eno",
+		"etichetta": "Island Records"
+	},
+	{
+		"titolo": "Bruce Springsteen - Tunnel of Love",
+		"autore": "Bruce Springsteen",
+		"anno": 1987,
+		"tracklist": [
+			{
+				"nome": "Ain't Got You",
+				"durata": "2:07"
+			},
+			{
+				"nome": "Tougher Than the Rest",
+				"durata": "4:35"
+			},
+			{
+				"nome": "All That Heaven Will Allow",
+				"durata": "2:39"
+			},
+			{
+				"nome": "Spare Parts",
+				"durata": "3:44"
+			},
+			{
+				"nome": "Cautious Man",
+				"durata": "3:57"
+			},
+			{
+				"nome": "Walk Like a Man",
+				"durata": "3:45"
+			},
+			{
+				"nome": "Tunnel of Love",
+				"durata": "5:12"
+			},
+			{
+				"nome": "Two Faces",
+				"durata": "3:03"
+			},
+			{
+				"nome": "Brilliant Disguise",
+				"durata": "4:15"
+			},
+			{
+				"nome": "One Step Up",
+				"durata": "4:21"
+			},
+			{
+				"nome": "When You're Alone",
+				"durata": "3:24"
+			},
+			{
+				"nome": "Valentine's Day",
+				"durata": "5:10"
+			}
+		],
+		"produttore": "Bruce Springsteen",
+		"etichetta": "Columbia Records"
+	},
+	{
+		"titolo": "R.E.M. - Automatic for the People",
+		"autore": "R.E.M.",
+		"anno": 1992,
+		"tracklist": [
+			{
+				"nome": "Drive",
+				"durata": "4:31"
+			},
+			{
+				"nome": "Try Not to Breathe",
+				"durata": "3:50"
+			},
+			{
+				"nome": "The Sidewinder Sleeps Tonite",
+				"durata": "4:06"
+			},
+			{
+				"nome": "Everybody Hurts",
+				"durata": "5:17"
+			},
+			{
+				"nome": "New Orleans Instrumental No. 1",
+				"durata": "2:15"
+			},
+			{
+				"nome": "Sweetness Follows",
+				"durata": "4:19"
+			},
+			{
+				"nome": "Monty Got a Raw Deal",
+				"durata": "3:17"
+			},
+			{
+				"nome": "Ignoreland",
+				"durata": "4:24"
+			},
+			{
+				"nome": "Star Me Kitten",
+				"durata": "3:15"
+			},
+			{
+				"nome": "Man on the Moon",
+				"durata": "5:13"
+			},
+			{
+				"nome": "Nightswimming",
+				"durata": "4:18"
+			},
+			{
+				"nome": "Find the River",
+				"durata": "3:50"
+			}
+		],
+		"produttore": "Scott Litt, R.E.M.",
+		"etichetta": "Warner Bros. Records"
+	},
+	{
+		"titolo": "Bob Dylan - Time Out of Mind",
+		"autore": "Bob Dylan",
+		"anno": 1997,
+		"tracklist": [
+			{
+				"nome": "Love Sick",
+				"durata": "5:21"
+			},
+			{
+				"nome": "Dirt Road Blues",
+				"durata": "3:36"
+			},
+			{
+				"nome": "Standing in the Doorway",
+				"durata": "7:43"
+			},
+			{
+				"nome": "Million Miles",
+				"durata": "5:52"
+			},
+			{
+				"nome": "Trying to Get to Heaven",
+				"durata": "5:21"
+			},
+			{
+				"nome": "Til I Fell in Love with You",
+				"durata": "5:17"
+			},
+			{
+				"nome": "Not Dark Yet",
+				"durata": "6:29"
+			},
+			{
+				"nome": "Cold Irons Bound",
+				"durata": "7:15"
+			},
+			{
+				"nome": "Make You Feel My Love",
+				"durata": "3:32"
+			},
+			{
+				"nome": "Can't Wait",
+				"durata": "5:47"
+			},
+			{
+				"nome": "Highlands",
+				"durata": "16:31"
+			}
+		],
+		"produttore": "Daniel Lanois",
+		"etichetta": "Columbia Records"
+	},
+	{
+		"titolo": "Sinead O'Connor - The Lion and the Cobra",
+		"autore": "Sinead O'Connor",
+		"anno": 1987,
+		"tracklist": [
+			{
+				"nome": "Jackie",
+				"durata": "2:29"
+			},
+			{
+				"nome": "Mandinka",
+				"durata": "3:46"
+			},
+			{
+				"nome": "Jerusalem",
+				"durata": "4:20"
+			},
+			{
+				"nome": "Just Like U Said It Would B",
+				"durata": "4:32"
+			},
+			{
+				"nome": "Never Get Old",
+				"durata": "4:37"
+			},
+			{
+				"nome": "Troy",
+				"durata": "6:32"
+			},
+			{
+				"nome": "I Want Your (Hands on Me)",
+				"durata": "4:42"
+			},
+			{
+				"nome": "Drink Before the War",
+				"durata": "5:22"
+			},
+			{
+				"nome": "Just Call Me Joe",
+				"durata": "5:52"
+			}
+		],
+		"produttore": "Kevin Mooney",
+		"etichetta": "Chrysalis Records"
+	},
+	{
+		"titolo": "Lana Del Rey - Born to Die",
+		"autore": "Lana Del Rey",
+		"anno": 2012,
+		"tracklist": [
+			{
+				"nome": "Born to Die",
+				"durata": "4:46"
+			},
+			{
+				"nome": "Off to the Races",
+				"durata": "5:01"
+			},
+			{
+				"nome": "Blue Jeans",
+				"durata": "3:29"
+			},
+			{
+				"nome": "Video Games",
+				"durata": "4:42"
+			},
+			{
+				"nome": "Diet Mountain Dew",
+				"durata": "3:43"
+			},
+			{
+				"nome": "National Anthem",
+				"durata": "3:51"
+			},
+			{
+				"nome": "Dark Paradise",
+				"durata": "4:03"
+			},
+			{
+				"nome": "Radio",
+				"durata": "3:34"
+			},
+			{
+				"nome": "Carmen",
+				"durata": "4:08"
+			},
+			{
+				"nome": "Million Dollar Man",
+				"durata": "3:51"
+			},
+			{
+				"nome": "Summertime Sadness",
+				"durata": "4:25"
+			},
+			{
+				"nome": "This Is What Makes Us Girls",
+				"durata": "3:58"
+			},
+			{
+				"nome": "Without You",
+				"durata": "3:49"
+			},
+			{
+				"nome": "Lolita",
+				"durata": "3:39"
+			},
+			{
+				"nome": "Lucky Ones",
+				"durata": "3:47"
+			}
+		],
+		"produttore": "Emile Haynie",
+		"etichetta": "Interscope Records"
+	}
+]

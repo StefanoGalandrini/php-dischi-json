@@ -1,8 +1,9 @@
 [
 	{
-		"titolo": "Taylor Swift - Evermore",
+		"titolo": "Evermore",
 		"autore": "Taylor Swift",
 		"anno": 2020,
+		"cover": "evermore.jpg",
 		"tracklist": [
 			{
 				"nome": "Willow",
@@ -69,9 +70,10 @@
 		"etichetta": "Republic Records"
 	},
 	{
-		"titolo": "U2 - The Joshua Tree Remastered",
+		"titolo": "The Joshua Tree",
 		"autore": "U2",
-		"anno": 2017,
+		"anno": 1987,
+		"cover": "u2.jpg",
 		"tracklist": [
 			{
 				"nome": "Where the Streets Have No Name",
@@ -122,9 +124,10 @@
 		"etichetta": "Island Records"
 	},
 	{
-		"titolo": "Bruce Springsteen - Tunnel of Love",
+		"titolo": "Tunnel of Love",
 		"autore": "Bruce Springsteen",
 		"anno": 1987,
+		"cover": "springsteen.jpg",
 		"tracklist": [
 			{
 				"nome": "Ain't Got You",
@@ -179,9 +182,10 @@
 		"etichetta": "Columbia Records"
 	},
 	{
-		"titolo": "R.E.M. - Automatic for the People",
+		"titolo": "Automatic for the People",
 		"autore": "R.E.M.",
 		"anno": 1992,
+		"cover": "rem.jpg",
 		"tracklist": [
 			{
 				"nome": "Drive",
@@ -236,9 +240,10 @@
 		"etichetta": "Warner Bros. Records"
 	},
 	{
-		"titolo": "Bob Dylan - Time Out of Mind",
+		"titolo": "Time Out of Mind",
 		"autore": "Bob Dylan",
 		"anno": 1997,
+		"cover": "dylan.jpg",
 		"tracklist": [
 			{
 				"nome": "Love Sick",
@@ -289,9 +294,10 @@
 		"etichetta": "Columbia Records"
 	},
 	{
-		"titolo": "Sinead O'Connor - The Lion and the Cobra",
+		"titolo": "The Lion and the Cobra",
 		"autore": "Sinead O'Connor",
 		"anno": 1987,
+		"cover": "sinead.jpg",
 		"tracklist": [
 			{
 				"nome": "Jackie",
@@ -334,9 +340,10 @@
 		"etichetta": "Chrysalis Records"
 	},
 	{
-		"titolo": "Lana Del Rey - Born to Die",
+		"titolo": "Born to Die",
 		"autore": "Lana Del Rey",
 		"anno": 2012,
+		"cover": "lana.jpg",
 		"tracklist": [
 			{
 				"nome": "Born to Die",

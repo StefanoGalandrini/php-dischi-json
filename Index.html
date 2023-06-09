@@ -25,7 +25,10 @@
 			<main>
 
 				<div class="card">
-
+					<img :src="getSrc(albums[0])" alt="">
+					<p class="title">{{ albums[0].titolo }}</p>
+					<p class="author">{{ albums[0].autore }}</p>
+					<p class="year">{{ albums[0].anno }}</p>
 				</div>
 				<div class="card"></div>
 				<div class="card"></div>

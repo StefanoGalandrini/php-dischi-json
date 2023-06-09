@@ -49,7 +49,7 @@ header img {
 main {
 	width: 55vw;
 	height: calc(100vh - var(--header-height) - 6rem);
-	margin: 3rem auto;
+	margin: 2rem auto;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(2, 1fr);
@@ -60,7 +60,35 @@ main {
 }
 
 main .card {
-	border: 1px solid white;
+	background-color: var(--bkg-cards);
+	box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.4);
 	padding: 1rem;
 	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+main .card img {
+	width: 65%;
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+	object-position: center center;
+	border: 2px solid white;
+}
+
+main .card .title {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+main .card .author {
+	font-size: 0.9rem;
+}
+
+main .card .year {
+	font-size: 1.1rem;
+	font-weight: bold;
 }

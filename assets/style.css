@@ -13,6 +13,7 @@
 	--bkg-color: #1d2d3c;
 	--bkg-header: #06131f;
 	--bkg-cards: #112030;
+	--header-height: 10vh;
 
 	/* Font family */
 	font-family: 'Noto Sans', sans-serif;
@@ -25,7 +26,7 @@ body {
 
 
 header {
-	height: 10vh;
+	height: var(--header-height);
 	background-color: var(--bkg-header);
 }
 
@@ -34,7 +35,7 @@ header .container {
 	justify-content: start;
 	align-items: center;
 	height: 100%;
-	width: 80vw;
+	width: 65vw;
 	margin-inline: auto;
 }
 
@@ -42,4 +43,24 @@ header img {
 	height: 50%;
 	aspect-ratio: 1 / 1;
 	color: #18d860;
+}
+
+
+main {
+	width: 55vw;
+	height: calc(100vh - var(--header-height) - 6rem);
+	margin: 3rem auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	justify-content: space-between;
+	align-content: center;
+	row-gap: 2rem;
+	column-gap: 4rem;
+}
+
+main .card {
+	border: 1px solid white;
+	padding: 1rem;
+	height: 100%;
 }

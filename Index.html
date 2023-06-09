@@ -15,26 +15,33 @@
 <body>
 
 	<div id="app">
-		<div class="container">
-			<header>
-				<div class="container">
-					<img src="./assets/img/logo.png" alt="">
-				</div>
-			</header>
 
-			<main>
-				<div v-for="album in albums" class="cards" @click="selectAlbum(album)>
-					<div class=" card">
+		<header>
+			<div class="logo">
+				<img src="./assets/img/logo.png" alt="">
+			</div>
+		</header>
+
+		<main>
+			<div v-for="album in albums" class="cards" @click="selectAlbum(album)">
+				<div class=" card">
 					<img :src="getSrc(album)" alt="">
 					<p class="title">{{ album.titolo }}</p>
 					<p class="author">{{ album.autore }}</p>
 					<p class="year">{{ album.anno }}</p>
 				</div>
-		</div>
+			</div>
+
+			<!-- Overlay on click -->
+			<div class="overlay" v-if="selectedAlbum" @click="selectedAlbum = null">
+				<img :src="getSrc(selectedAlbum)" alt="">
+
+				<h2>{{ selectedAlbum.titolo }}</h2>
+				<p>{{ selectedAlbum.autore }}</p>
+			</div>
 
 		</main>
 
-	</div>
 	</div>
 
 </body>

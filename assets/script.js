@@ -17,13 +17,13 @@ const app = Vue.createApp({
 
 		getSrc(album)
 		{
-			console.log(`./assets/img/${album.cover}`);
 			return `./assets/img/${album.cover}`;
 		},
 
 		selectAlbum(album)
 		{
 			this.selectedAlbum = album;
+			console.log(this.selectedAlbum.titolo);
 		},
 	},
 

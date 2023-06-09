@@ -30,7 +30,7 @@ header {
 	background-color: var(--bkg-header);
 }
 
-header .container {
+header .logo {
 	display: flex;
 	justify-content: start;
 	align-items: center;
@@ -40,11 +40,10 @@ header .container {
 }
 
 header img {
-	height: 50%;
+	height: 20%;
 	aspect-ratio: 1 / 1;
 	color: #18d860;
 }
-
 
 main {
 	width: 55vw;
@@ -69,6 +68,7 @@ main .card {
 	justify-content: center;
 	align-items: center;
 	gap: 1rem;
+	cursor: pointer;
 }
 
 main .card img {
@@ -80,6 +80,7 @@ main .card img {
 }
 
 main .card .title {
+	text-align: center;
 	font-size: 1.3rem;
 	font-weight: bold;
 }
@@ -91,4 +92,18 @@ main .card .author {
 main .card .year {
 	font-size: 1.1rem;
 	font-weight: bold;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(6, 19, 31, 0.95);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }

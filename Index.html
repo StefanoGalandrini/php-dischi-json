@@ -23,22 +23,18 @@
 			</header>
 
 			<main>
-
-				<div class="card">
-					<img :src="getSrc(albums[0])" alt="">
-					<p class="title">{{ albums[0].titolo }}</p>
-					<p class="author">{{ albums[0].autore }}</p>
-					<p class="year">{{ albums[0].anno }}</p>
+				<div v-for="album in albums" class="cards" @click="selectAlbum(album)>
+					<div class=" card">
+					<img :src="getSrc(album)" alt="">
+					<p class="title">{{ album.titolo }}</p>
+					<p class="author">{{ album.autore }}</p>
+					<p class="year">{{ album.anno }}</p>
 				</div>
-				<div class="card"></div>
-				<div class="card"></div>
-				<div class="card"></div>
-				<div class="card"></div>
-				<div class="card"></div>
-
-			</main>
-
 		</div>
+
+		</main>
+
+	</div>
 	</div>
 
 </body>

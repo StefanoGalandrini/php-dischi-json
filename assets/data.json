@@ -240,60 +240,6 @@
 		"etichetta": "Warner Bros. Records"
 	},
 	{
-		"titolo": "Time Out of Mind",
-		"autore": "Bob Dylan",
-		"anno": 1997,
-		"cover": "dylan.jpg",
-		"tracklist": [
-			{
-				"nome": "Love Sick",
-				"durata": "5:21"
-			},
-			{
-				"nome": "Dirt Road Blues",
-				"durata": "3:36"
-			},
-			{
-				"nome": "Standing in the Doorway",
-				"durata": "7:43"
-			},
-			{
-				"nome": "Million Miles",
-				"durata": "5:52"
-			},
-			{
-				"nome": "Trying to Get to Heaven",
-				"durata": "5:21"
-			},
-			{
-				"nome": "Til I Fell in Love with You",
-				"durata": "5:17"
-			},
-			{
-				"nome": "Not Dark Yet",
-				"durata": "6:29"
-			},
-			{
-				"nome": "Cold Irons Bound",
-				"durata": "7:15"
-			},
-			{
-				"nome": "Make You Feel My Love",
-				"durata": "3:32"
-			},
-			{
-				"nome": "Can't Wait",
-				"durata": "5:47"
-			},
-			{
-				"nome": "Highlands",
-				"durata": "16:31"
-			}
-		],
-		"produttore": "Daniel Lanois",
-		"etichetta": "Columbia Records"
-	},
-	{
 		"titolo": "The Lion and the Cobra",
 		"autore": "Sinead O'Connor",
 		"anno": 1987,

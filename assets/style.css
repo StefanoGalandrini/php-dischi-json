@@ -95,15 +95,100 @@ main .card .year {
 }
 
 .overlay {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(6, 19, 31, 0.95);
-	color: white;
+	padding-top: 5rem;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+	align-content: flex-start;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(4, 14, 24, 0.97);
+}
+
+.overlay-content {
+	display: grid;
+	grid-template-areas:
+		"cover cover cover"
+		"details . tracklist";
+	grid-template-columns: 3fr 1fr 3fr;
+	grid-template-rows: auto 1fr;
+	color: white;
+	width: 70vw;
+	margin-inline: auto;
+}
+
+.album-cover {
+	grid-area: cover;
+	width: 15vw;
+	max-height: 15vw;
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+	justify-self: center;
+	margin-bottom: 3rem;
+}
+
+.album-details {
+	grid-area: details;
+	justify-self: center;
+	text-align: center;
+	line-height: 2.5rem;
+}
+
+.album-details .description {
+	color: lightgray;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	margin-top: 1rem;
+}
+
+.album-details .text {
+	color: white;
+	font-size: 1.15rem;
+}
+
+.tracklist {
+	grid-area: tracklist;
+	justify-self: center;
+	align-self: flex-start;
+}
+
+.tracklist h3 {
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+.tracklist .title {
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+}
+
+.tracklist ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.tracklist li {
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.85rem;
+	line-height: 1.5rem;
+}
+
+.track-number {
+	text-align: right;
+	width: 3ch;
+}
+
+.track-title {
+	text-align: left;
+	flex-grow: 1;
+	margin-inline: 0.5rem;
+}
+
+.track-duration {
+	text-align: right;
+	width: 10ch;
 }

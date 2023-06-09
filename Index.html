@@ -34,11 +34,37 @@
 
 			<!-- Overlay on click -->
 			<div class="overlay" v-if="selectedAlbum" @click="selectedAlbum = null">
-				<img :src="getSrc(selectedAlbum)" alt="">
+				<div class="overlay-content">
 
-				<h2>{{ selectedAlbum.titolo }}</h2>
-				<p>{{ selectedAlbum.autore }}</p>
+					<!-- Copertina centrata -->
+					<img :src="getSrc(selectedAlbum)" class="album-cover">
+
+					<!-- Dettagli a sinistra -->
+					<div class="album-details">
+						<h2>{{ selectedAlbum.titolo }}</h2>
+						<h3>{{ selectedAlbum.autore }}</h3>
+						<p>{{ selectedAlbum.anno }}</p>
+						<p class="description">Prodotto da:</p>
+						<p class="text">{{ selectedAlbum.produttore }}</p>
+						<p class="description">Per:</p>
+						<p class="text">{{ selectedAlbum.etichetta }}</p>
+					</div>
+
+					<!-- Tracklist e durata a destra -->
+					<div class="tracklist">
+						<h3>Tracklist</h3>
+						<ul>
+							<li v-for="(track, index) in selectedAlbum.tracklist">
+								<span class="track-number">{{ index + 1 }}.</span>
+								<span class="track-title">{{ track.nome }}</span>
+								<span class="track-duration">{{ track.durata }}</span>
+							</li>
+						</ul>
+
+					</div>
+				</div>
 			</div>
+
 
 		</main>
 
